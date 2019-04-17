@@ -13,6 +13,7 @@ class Atm{
 		System.out.println("Enter an amount");
 		amount=input.nextInt();
 		fivethousand=amount/5000;
+		thousand=amount/1000;
 		fifhun=amount/500;
 		hun=amount/100;
 		fifty=amount/50;
@@ -43,6 +44,7 @@ class Atm{
 		}
 			
 		System.out.println("Total amount of fivethousand\t"+fivethousand);
+		System.out.println("Total amount of thousand\t"+thousand);	
 		System.out.println("Total amount of fifhun\t"+fifhun);
 		System.out.println("Total amount of hun\t"+hun);
 		System.out.println("Total amount of fifty\t"+fifty);
