@@ -4,6 +4,7 @@ class Atm{
 		Scanner input=new Scanner(System.in);
 		int amount;
 		int fivethousand;
+		int thousand;
 		int fifhun;
 		int hun;
 		int fifty;
@@ -29,17 +30,17 @@ class Atm{
 		System.out.println("4 - Terminate transaction");
 		System.out.println("Choice:");
 		Selection = input.next();
-		Swtich (Selection) {
-		Case 1:
-		View Account info();
-			Break;
-		Case 2:
-		Withdraw();
-			Break;
-		Case 3:
-		Add Funds();
-			Break;
-		Case 4:
+		swtich (selection) {
+	        case 1:
+		view Account();
+			break;
+		case 2:
+		withdraw();
+			break;
+		case 3:
+		add funds();
+			break;
+	       default:
 		System.out.println(" Thank you for using this ATM!! GOODBYE");
 		}
 			
