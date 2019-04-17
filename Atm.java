@@ -10,6 +10,9 @@ class Atm{
 		int fifty;
 		int twenty;
 		int ten;
+		int five;
+		int two;
+		int one;
 
 		System.out.println("Enter an amount");
 		amount=input.nextInt();
@@ -20,6 +23,9 @@ class Atm{
 		fifty=amount/50;
 		twenty=amount/20;
 		ten=amount/10;
+		ten=amount/5;
+		ten=amount/2;
+		ten=amount/1;
 		
 		public void drawmainmenu() {
 		int selection;
@@ -51,6 +57,9 @@ class Atm{
 		System.out.println("Total amount of fifty\t"+fifty);
 		System.out.println("Total amount of twenty\t"+twenty);
 		System.out.println("Total amount of ten \t"+ten);
+	        System.out.println("Total amount of ten \t"+five);
+		System.out.println("Total amount of ten \t"+two);
+		System.out.println("Total amount of ten \t"+one);
 		
 		
 		
