@@ -18,6 +18,17 @@ class Atm{
 		fifty=amount/50;
 		twenty=amount/20;
 		ten=amount/10;
+		
+		public void drawmainmenu() {
+		int selection;
+		System.out.println("/nATM main menu:");
+		System.out.println("1 - View accont balance");
+		System.out.println("2 - Withdraw funds");
+		System.out.println("3 - Add funds");
+		System.out.println("4 - Terminate transaction");
+		System.out.println("Choice:");
+			
+			
 		System.out.println("Total amount of fivethousand\t"+fivethousand);
 		System.out.println("Total amount of fifhun\t"+fifhun);
 		System.out.println("Total amount of hun\t"+hun);
@@ -28,7 +39,6 @@ class Atm{
 		
 		
 		
-
 
 	}
 
