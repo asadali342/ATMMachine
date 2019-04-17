@@ -3,6 +3,7 @@ class Atm{
 	public static void main(String ar[]){
 		Scanner input=new Scanner(System.in);
 		int amount;
+		int fivethousand;
 		int fifhun;
 		int hun;
 		int fifty;
@@ -11,11 +12,13 @@ class Atm{
 
 		System.out.println("Enter an amount");
 		amount=input.nextInt();
+		fivethousand=amount/5000;
 		fifhun=amount/500;
 		hun=amount/100;
 		fifty=amount/50;
 		twenty=amount/20;
 		ten=amount/10;
+		System.out.println("Total amount of fivethousand\t"+fivethousand);
 		System.out.println("Total amount of fifhun\t"+fifhun);
 		System.out.println("Total amount of hun\t"+hun);
 		System.out.println("Total amount of fifty\t"+fifty);
