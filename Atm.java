@@ -27,7 +27,20 @@ class Atm{
 		System.out.println("3 - Add funds");
 		System.out.println("4 - Terminate transaction");
 		System.out.println("Choice:");
-			
+		Selection = input.next();
+		Swtich (Selection) {
+		Case 1:
+		View Account info();
+			Break;
+		Case 2:
+		Withdraw();
+			Break;
+		Case 3:
+		Add Funds();
+			Break;
+		Case 4:
+		System.out.println(" Thank you for using this ATM!! GOODBYE");
+		}
 			
 		System.out.println("Total amount of fivethousand\t"+fivethousand);
 		System.out.println("Total amount of fifhun\t"+fifhun);
